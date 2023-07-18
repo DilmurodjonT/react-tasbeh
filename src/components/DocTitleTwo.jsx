@@ -1,6 +1,6 @@
 import useCounter from "./hooks/useCounter";
 
-const DocTitleOne = () => {
+const DocTitleTwo = () => {
   const [count, increment, decrement, reset] = useCounter();
 
   return (
@@ -13,4 +13,4 @@ const DocTitleOne = () => {
   );
 };
 
-export default DocTitleOne;
+export default DocTitleTwo;
